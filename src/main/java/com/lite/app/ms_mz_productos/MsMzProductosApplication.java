@@ -8,7 +8,7 @@ public class MsMzProductosApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MsMzProductosApplication.class, args);
-		System.out.println("Hola");
+
 	}
 
 }
