@@ -1,4 +1,4 @@
-package com.lite.ms_mz_productos.domain;
+package com.lite.app.ms_mz_productos.domain;
 
 import java.util.HashMap;
 
@@ -18,7 +18,7 @@ public class Log {
 
 
    public StructuredArgument getValues() {
-		HashMap<String, Object> map = new HashMap<>();
+		HashMap<String, Object> map = new HashMap<String, Object>();
 		map.put("idProducto", idProducto);
         map.put("description", description);
 		return entries(map);

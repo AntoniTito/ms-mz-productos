@@ -1,4 +1,4 @@
-package com.lite.ms_mz_productos.application;
+package com.lite.app.ms_mz_productos.application;
 
 public class CRUDProduct {
 

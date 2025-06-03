@@ -1,4 +1,4 @@
-package com.lite.ms_mz_productos.domain;
+package com.lite.app.ms_mz_productos.domain;
 
 public class Order {
 

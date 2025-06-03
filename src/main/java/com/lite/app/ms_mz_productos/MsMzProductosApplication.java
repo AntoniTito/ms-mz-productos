@@ -1,4 +1,4 @@
-package com.lite.ms_mz_productos;
+package com.lite.app.ms_mz_productos;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
