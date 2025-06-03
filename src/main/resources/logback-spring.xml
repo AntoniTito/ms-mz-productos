@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+  <include resource="org/springframework/boot/logging/logback/defaults.xml" />
+	<springProperty name="appname" source="spring.application.name" />
+	<springProperty name="logstash" source="logstash.server" />
+
+
+<appender name="NORMAL" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss} %thread %highlight(%-5level) [%class.%method:%line] %highlight(%logger{36}) - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+
+  <appender name="STASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+		<destination>${logstash}</destination>
+		<encoder class="net.logstash.logback.encoder.LogstashEncoder">
+			<includeCallerData>true</includeCallerData>
+			<customFields>{"appname":"${appname}"}</customFields>
+		</encoder>
+	</appender>
+
+
+	<root level="INFO">
+		<appender-ref ref="STASH"/>
+		<appender-ref ref="NORMAL"/>
+	</root>
+
+	<logger name="servicio" level="ERROR">
+		<appender-ref ref="STASH"/>
+		<appender-ref ref="NORMAL"/>
+	</logger>
+
+</configuration>

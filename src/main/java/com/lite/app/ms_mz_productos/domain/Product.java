@@ -1,4 +1,4 @@
-package com.lite.ms_mz_productos;
+package com.lite.ms_mz_productos.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

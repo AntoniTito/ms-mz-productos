@@ -1,4 +1,4 @@
-package com.lite.app.ms_productos.domain;
+package com.lite.ms_mz_productos.domain;
 
 import java.util.HashMap;
 
@@ -15,13 +15,13 @@ public class Log {
         this.idProducto = idProducto;
         this.description = description;
     }
-   
+
 
    public StructuredArgument getValues() {
-		HashMap<String, Object> map = new HashMap<String, Object>();
+		HashMap<String, Object> map = new HashMap<>();
 		map.put("idProducto", idProducto);
         map.put("description", description);
 		return entries(map);
    }
-    
+
 }

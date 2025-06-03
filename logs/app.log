@@ -1,0 +1,38 @@
+2025-06-02 14:48:21 [main] INFO  c.l.a.m.MsMzProductosApplication - Starting MsMzProductosApplication using Java 21.0.2 with PID 23532 (C:\Users\User\Desktop\ms-mz-productos\target\classes started by User in C:\Users\User\Desktop\ms-mz-productos)
+2025-06-02 14:48:21 [main] INFO  c.l.a.m.MsMzProductosApplication - No active profile set, falling back to 1 default profile: "default"
+2025-06-02 14:48:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-02 14:48:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-02 14:48:22 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-02 14:48:22 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-02 14:48:22 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-02 14:48:22 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 883 ms
+2025-06-02 14:48:22 [main] INFO  c.l.a.m.MsMzProductosApplication - Starting MsMzProductosApplication using Java 21.0.2 with PID 13484 (C:\Users\User\Desktop\ms-mz-productos\target\classes started by User in C:\Users\User\Desktop\ms-mz-productos)
+2025-06-02 14:48:22 [main] INFO  c.l.a.m.MsMzProductosApplication - No active profile set, falling back to 1 default profile: "default"
+2025-06-02 14:48:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-06-02 14:48:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-06-02 14:48:22 [main] INFO  c.l.a.m.MsMzProductosApplication - Started MsMzProductosApplication in 1.844 seconds (process running for 2.108)
+2025-06-02 14:48:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-06-02 14:48:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-02 14:48:23 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-02 14:48:23 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-02 14:48:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-02 14:48:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 849 ms
+2025-06-02 14:48:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-06-02 14:48:23 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-06-02 14:48:23 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-02 14:48:23 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
